@@ -1,0 +1,50 @@
+### Node ###
+# Logs
+*.log
+npm-debug.log*
+
+# linter cache
+.eslintcache
+
+# Dependency directory
+node_modules
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+### OSX ###
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# WebStorm
+.idea
+.sublime-project
+
+# Application Specific
+build
+
+cert_prod.json
+prod_cert.json
+
+yarn.lock
+
+.firebase
+
+/.temp/
+gru/.temp
+
+# misc
+yarn-debug.log*
+yarn-error.log*
